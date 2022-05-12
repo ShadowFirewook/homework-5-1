@@ -5,11 +5,11 @@ public class Boss {
 
     public int getHP() {
         return HP;
-    }
+    } 
 
     public void setHP(int HP) {
         if (HP <= 0){
-            System.out.println("Íåäîïóñòèìîå çíà÷åíèå çäîðîâüÿ");
+            System.out.println("ÃÃ¥Ã¤Ã®Ã¯Ã³Ã±Ã²Ã¨Ã¬Ã®Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã§Ã¤Ã®Ã°Ã®Ã¢Ã¼Ã¿");
         }
         else {
         this.HP = HP;
@@ -22,7 +22,7 @@ public class Boss {
 
     public void setDMG(int DMG) {
         if (DMG <= 0){
-            System.out.println("Íåäîïóñòèìîå çíà÷åíèå óðîíà");
+            System.out.println("ÃÃ¥Ã¤Ã®Ã¯Ã³Ã±Ã²Ã¨Ã¬Ã®Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã³Ã°Ã®Ã­Ã ");
         }else {
             this.DMG = DMG;
         }
