@@ -5,11 +5,11 @@ public class Boss {
 
     public int getHP() {
         return HP;
-    } 
+    }
 
     public void setHP(int HP) {
         if (HP <= 0){
-            System.out.println("Íåäîïóñòèìîå çíà÷åíèå çäîðîâüÿ");
+            System.out.println("Недопустимое значение здоровья");
         }
         else {
         this.HP = HP;
@@ -22,7 +22,7 @@ public class Boss {
 
     public void setDMG(int DMG) {
         if (DMG <= 0){
-            System.out.println("Íåäîïóñòèìîå çíà÷åíèå óðîíà");
+            System.out.println("Недопустимое значение урона");
         }else {
             this.DMG = DMG;
         }
